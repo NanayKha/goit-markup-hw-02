@@ -86,3 +86,16 @@ h2{
     font-weight: 700;
     line-height: 1.11;
 }
+
+footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+    color: #F4F4FD;
+
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.50;
+}
