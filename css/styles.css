@@ -1,0 +1,88 @@
+button:hover,
+button:focus,
+a:hover,
+a:focus {
+    background: var(--OCEAN, #404BBF);
+    color: var(--WHITE, #FFF);
+}
+
+a {
+    color: var(--NAVY-BLUE, #2E2F42);
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #FFF;
+  }
+
+.header-contact a:hover,
+.header-contact a:focus,
+.footer-contact a:hover,
+.footer-contact a:focus {
+    color: var(--IRIS, #4D5AE5);
+}
+
+a[href="#WEBSTUDIO"] span,
+a[href="#WEBSTUDIO"] {
+    font-family: 'Raleway'; sans-serif;
+}
+
+a span {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+}
+
+body {
+    color: var(--SLATE, #434455);
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+ul{
+    list-style: none;
+    color: var(--NAVY-BLUE, #2E2F42);
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+ 
+.paragraph{
+    font-style: normal; font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+  }
+
+.main-heading {
+    background: var(--NAVY-BLUE, #2E2F42);
+    color: var(--WHITE, #FFF);
+    position: relative;
+}
+
+h2{
+    color: var(--NAVY-BLUE, #2E2F42);
+
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+}
