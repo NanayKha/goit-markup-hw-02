@@ -85,6 +85,13 @@ body {
     color: var(--WHITE, #FFF);
     text-align: center; 
 }
+
+.main-heading button {
+    display: flex;
+    justify-content: left;
+
+}
+   
 /*Title*/
 
 h2 {
